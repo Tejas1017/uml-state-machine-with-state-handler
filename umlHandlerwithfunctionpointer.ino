@@ -218,8 +218,8 @@ event_status_t decHandler() {
 event_status_t stateHandler(){
     switch (ee) {
     case ENTRY:
-      Serial.println("vishaka ");
-   // Serial.println(c.count);
+    
+    Serial.println(c.count);
       return eventHandled;
     case EXIT:
       return eventHandled;
